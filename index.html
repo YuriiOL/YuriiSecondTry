@@ -28,7 +28,9 @@
             <div id="sideText1">Изображение: Не выбрано</div>
             <div id="sideText2">Рама: Не выбрано</div>
             <div id="sideText3">Отпечатки: Не выбрано</div>
-            <div id="showPicture"></div>
+            <div id="showBorder">
+                <div id="showPicture"></div>
+            </div>
             <button id="sideButton">ДАЛЕЕ</button>
 
             <script type="module" src="./sideBar.js"></script>
@@ -56,22 +58,22 @@
             <div id="mainText1">Рама</div>
             <div id="mainText2">Подберите раму, которая подойдет случаю и впишется в интерьер, ведь вы же не просто
                 оставляете "пальчики", а создаете предмет декора для дома и офиса:</div>
-            <div id="ListOfImg" class="ListOfImg">
-                <img src="./img/borders/rama-01.png" alt="1" id="pictureOne">
-                <img src="./img/borders/rama-02.png" alt="2" id="pictureTwo">
-                <img src="./img/borders/rama-03.png" alt="3" id="pictureThree">
-                <img src="./img/borders/rama-04.png" alt="4" id="pictureFour">
-                <img src="./img/borders/rama-05.png" alt="5" id="pictureFive">
-                <img src="./img/borders/rama-06.png" alt="6" id="pictureSix">
-                <img src="./img/borders/rama-07.png" alt="7" id="pictureSeven">
-                <img src="./img/borders/rama-08.png" alt="8" id="pictureEight">
-                <img src="./img/borders/rama-09.png" alt="9" id="pictureNine">
-                <img src="./img/borders/rama-10.png" alt="10" id="pictureTen">
-                <img src="./img/borders/rama-11.png" alt="11" id="pictureEleven">
-                <img src="./img/borders/rama-12.png" alt="12" id="pictureTwelve">
-                <img src="./img/borders/rama-13.png" alt="13" id="pictureThirteen">
-                <img src="./img/borders/rama-14.png" alt="14" id="pictureFourteen">
-                <img src="./img/borders/rama-15.png" alt="15" id="pictureFifteen">
+            <div id="listOfBorders" class="listOfBorders">
+                <img src="./img/borders/rama-01.png" alt="1" id='borderOne'>
+                <img src="./img/borders/rama-02.png" alt="2" id="borderTwo">
+                <img src="./img/borders/rama-03.png" alt="3" id="borderThree">
+                <img src="./img/borders/rama-04.png" alt="4" id="borderFour">
+                <img src="./img/borders/rama-05.png" alt="5" id="borderFive">
+                <img src="./img/borders/rama-06.png" alt="6" id="borderSix">
+                <img src="./img/borders/rama-07.png" alt="7" id="borderSeven">
+                <img src="./img/borders/rama-08.png" alt="8" id="borderEight">
+                <img src="./img/borders/rama-09.png" alt="9" id="borderNine">
+                <img src="./img/borders/rama-10.png" alt="10" id="borderTen">
+                <img src="./img/borders/rama-11.png" alt="11" id="borderEleven">
+                <img src="./img/borders/rama-12.png" alt="12" id="borderTwelve">
+                <img src="./img/borders/rama-13.png" alt="13" id="borderThirteen">
+                <img src="./img/borders/rama-14.png" alt="14" id="borderFourteen">
+                <img src="./img/borders/rama-15.png" alt="15" id="borderFifteen">
             </div>
         </div>
         <div id="main3">
@@ -83,7 +85,7 @@
             <p id="input2"><input type="text" id="inp2" placeholder="Анастасия и Константин"> Подпись</p>
             <p id="input3"><input type="text" id="inp3" placeholder="29 июля 2015"> Дата события</p>
             <p id="FontHeader">Шрифт</p>
-            <button class="FontAriston" id="Font1" onclick="showText1()">Ariston</button>
+            <button id="Font1" onclick="showText1()">Ariston</button>
             <button id="Font2" onclick="showText2()">DaVinci</button>
             <button id="Font3" onclick="showText3()">Brody</button>
         </div>
@@ -92,14 +94,14 @@
             <div id="mainText2">наконец, подберите самые подходящие цвета красок, с помощью которых вы и оставите на
                 картине свой след на память!</div>
             <div class="colorOfFingerprint">
-                <img src="./img/marks/orig/BahamaBlue.jpg" alt="1" id="color1" onclick="creatorfunction1()">
-                <img src="./img/marks/orig/BambooLeaves.jpg" alt="2" id="color2" onclick="creatorfunction2()">
-                <img src="./img/marks/CottageIvy.jpg" alt="3" id="color3" onclick="creatorfunction3()">
-                <img src="./img/marks/orig/LilacPosies.jpg" alt="4" id="color4" onclick="creatorfunction4()">
-                <img src="./img/marks/orig/PearTart.jpg" alt="5" id="color5" onclick="creatorfunction5()">
-                <img src="./img/marks/orig/Potter`sClay.jpg" alt="6" id="color6" onclick="creatorfunction6()">
-                <img src="./img/marks/orig/RhubarbStalk.jpg" alt="7" id="color7" onclick="creatorfunction7()">
-                <img src="./img/marks/orig/Tangelo.jpg" alt="8" id="color8" onclick="creatorfunction8()">
+                <img src="./img/marks/orig/BahamaBlue.jpg" alt="1" id="color1">
+                <img src="./img/marks/orig/BambooLeaves.jpg" alt="2" id="color2">
+                <img src="./img/marks/CottageIvy.jpg" alt="3" id="color3">
+                <img src="./img/marks/orig/LilacPosies.jpg" alt="4" id="color4">
+                <img src="./img/marks/orig/PearTart.jpg" alt="5" id="color5">
+                <img src="./img/marks/orig/Potter`sClay.jpg" alt="6" id="color6">
+                <img src="./img/marks/orig/RhubarbStalk.jpg" alt="7" id="color7">
+                <img src="./img/marks/orig/Tangelo.jpg" alt="8" id="color8">
             </div>
         </div>
         <div id="footer">
@@ -110,9 +112,5 @@
         </div>
 
 </body>
-
-
-
-
 
 </html>
