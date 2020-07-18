@@ -1,0 +1,95 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 650px 250px;
+    grid-template-rows: 50px 400px 80px;
+}
+
+#header {
+    border: 1px solid rgb(207, 205, 205);
+    border-top-left-radius: 15px;
+}
+
+#main {
+    border-left: 1px solid rgb(207, 205, 205);
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+#main2 {
+    border-left: 1px solid rgb(207, 205, 205);
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+#main3 {
+    border-left: 1px solid rgb(207, 205, 205);
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+#main4 {
+    border-left: 1px solid rgb(207, 205, 205);
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+#sideBar {
+    grid-column: 2;
+    grid-row: 1/4;
+    background-color: rgb(236, 236, 236);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid rgb(207, 205, 205);
+    border-left: none;
+}
+
+#footer {
+    border-bottom-left-radius: 15px;
+    border: 1px solid rgb(207, 205, 205);
+    position: relative;
+}
+
+/* HEADER */
+.header div {
+    float: left;
+    width: 143px;
+    border-right: 1px solid rgb(207, 205, 205);
+    height: 15px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 18px;
+}
+
+#button4 {
+    border-right: none;
+}
+
+/* Footer */
+#howMuch {
+    color: gray;
+    width: 90px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 400px;
+    float: left;
+}
+
+#price {
+    margin-top: 20px;
+    margin-left: 520px;
+    width: 130px;
+    height: 20px;
+    color: rgb(117, 194, 1);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#grn {
+    color: rgb(117, 194, 1);
+    font-size: 20px;
+    margin-left: 590px;
+    margin-top: -10px;
+    position: absolute;
+    z-index: 10;
+
+
+}
