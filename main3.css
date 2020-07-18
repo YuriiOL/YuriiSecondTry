@@ -17,33 +17,38 @@
     margin-left: 27px;
 }
 
-.ListOfImg {
-    width: 560px;
-    height: 280px;
-    margin-top: 10px;
-    margin-left: 37px;
-    overflow-y: scroll;
-}
-
-.ListOfImg::-webkit-scrollbar {
-    display: none;
-}
-
-.ListOfImg {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.ListOfImg img {
-    width: 175px;
-    height: 203px;
+input {
+    border-radius: 15px;
+    height: 35px;
+    width: 200px;
     border: 1px solid gainsboro;
-    margin: 3px;
-    margin-top: 0px;
-    border-radius: 10px
+    margin-left: 20px;
+    padding-left: 20px;
+    outline: none;
+    margin-right: 10px;
+
 }
 
-.ListOfImg img:hover {
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+#main3>button {
+    width: 90px;
+    height: 35px;
+    color: rgb(124, 187, 30);
+    background-color: white;
+    border: 1px solid rgb(125, 189, 31);
+    border-radius: 20px;
+    outline: none !important;
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    opacity: 0.6;
+    margin-top: -25px;
+}
+
+.FontAriston {
+    margin-left: 20px;
+}
+
+#FontHeader {
+    font-size: 19px;
+    margin-left: 34px;
+    opacity: 0.8;
 }

@@ -15,35 +15,25 @@
     font-size: 16px;
     margin-top: 10px;
     margin-left: 27px;
+    width: 610px;
 }
 
-.ListOfImg {
-    width: 560px;
-    height: 280px;
-    margin-top: 10px;
-    margin-left: 37px;
-    overflow-y: scroll;
-}
-
-.ListOfImg::-webkit-scrollbar {
+#main4 {
+    background-color: white;
+    position: relative;
     display: none;
+    height: 455px;
 }
 
-.ListOfImg {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.ListOfImg img {
-    width: 175px;
-    height: 203px;
+.colorOfFingerprint>img {
+    width: 135px;
+    height: 135px;
     border: 1px solid gainsboro;
     margin: 3px;
-    margin-top: 0px;
-    border-radius: 10px
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
-.ListOfImg img:hover {
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.colorOfFingerprint {
+    margin-left: 20px;
 }

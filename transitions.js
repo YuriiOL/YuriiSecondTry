@@ -31,7 +31,6 @@ function goNext() {
 }
 
 document.getElementById('sideButton').onclick = function addNext() {
-
     if (next == 3) {
         next = 0
     } else {
