@@ -1,0 +1,49 @@
+#main3 {
+    color: grey;
+    display: none;
+}
+
+#mainText1 {
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 27px;
+    font-weight: bold;
+
+}
+
+#mainText2 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.ListOfImg {
+    width: 560px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 37px;
+    overflow-y: scroll;
+}
+
+.ListOfImg::-webkit-scrollbar {
+    display: none;
+}
+
+.ListOfImg {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.ListOfImg img {
+    width: 175px;
+    height: 203px;
+    border: 1px solid gainsboro;
+    margin: 3px;
+    margin-top: 0px;
+    border-radius: 10px
+}
+
+.ListOfImg img:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
