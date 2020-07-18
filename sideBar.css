@@ -1,0 +1,57 @@
+#sideBarHeader {
+    width: 249px;
+    height: 28px;
+    border-bottom: 1px solid rgb(207, 205, 205);
+}
+
+#sideBarHeader p {
+    margin-left: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+#sideText1 {
+    font-size: 17px;
+    color: gray;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+#sideText2 {
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#sideText3 {
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#showPicture {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+#sideButton {
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 26px;
+    background-color: rgb(124, 187, 30);
+    color: white;
+    border-radius: 20px;
+    outline: none !important;
+    border: 1px;
+    font-size: 19px;
+    opacity: 0.6;
+}
