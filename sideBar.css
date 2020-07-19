@@ -69,3 +69,15 @@
     font-size: 19px;
     opacity: 0.6;
 }
+
+#showPicture p {
+    margin: 3px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#textOnPicture1 {
+    margin-bottom: 130px !important;
+    margin-top: 15px;
+
+}

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./main2.css">
     <link rel="stylesheet" href="./main3.css">
     <link rel="stylesheet" href="./main4.css">
+    <link rel="stylesheet" href="./addFonts.css">
 </head>
 
 <body>
@@ -29,10 +30,14 @@
             <div id="sideText2">Рама: Не выбрано</div>
             <div id="sideText3">Отпечатки: Не выбрано</div>
             <div id="showBorder">
-                <div id="showPicture"></div>
+                <div id="showPicture">
+                    <p id="textOnPicture1"></p>
+                    <p id="textOnPicture2"></p>
+                    <p id="textOnPicture3"></p>
+                </div>
             </div>
             <button id="sideButton">ДАЛЕЕ</button>
-
+            <script type="module" src="./main3.js"></script>
             <script type="module" src="./sideBar.js"></script>
             <script src="./transitions.js"></script>
         </div>
@@ -85,9 +90,9 @@
             <p id="input2"><input type="text" id="inp2" placeholder="Анастасия и Константин"> Подпись</p>
             <p id="input3"><input type="text" id="inp3" placeholder="29 июля 2015"> Дата события</p>
             <p id="FontHeader">Шрифт</p>
-            <button id="Font1" onclick="showText1()">Ariston</button>
-            <button id="Font2" onclick="showText2()">DaVinci</button>
-            <button id="Font3" onclick="showText3()">Brody</button>
+            <button id="Font1">Ariston</button>
+            <button id="Font2">DaVinci</button>
+            <button id="Font3">Brody</button>
         </div>
         <div id="main4">
             <div id="mainText1">Цвет отпечатков</div>
