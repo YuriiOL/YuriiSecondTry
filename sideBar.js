@@ -12,6 +12,10 @@ import {
     arrOfPicture,
     pickNumber
 } from './main.js'
+import {
+    numbColor,
+    arrOfColors
+} from './main4.js'
 
 export function showPicture() {
     document.getElementById('showPicture').style.backgroundImage = arrOfPicture[pickNumber].showImg
@@ -37,4 +41,12 @@ export function chageFont() {
     document.getElementById('textOnPicture1').style.fontFamily = fonts[fontNumber].name
     document.getElementById('textOnPicture2').style.fontFamily = fonts[fontNumber].name
     document.getElementById('textOnPicture3').style.fontFamily = fonts[fontNumber].name
+}
+
+export function choseColor() {
+    document.querySelector('#chosenColor').style.display = "block";
+    let box = document.createElement('div');
+    box.style.backgroundColor = arrOfColors[numbColor].name;
+    document.querySelector('#chosenColor').appendChild(box);
+
 }
