@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Ariston';
+    src: url('../fonts/ariston/ariston-webfont.eot');
+    src: url('../fonts/ariston/ariston-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ariston/ariston-webfont.woff2') format('woff2'),
+        url('../fonts/ariston/ariston-webfont.woff') format('woff'),
+        url('../fonts/ariston/ariston-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Davinci';
+    src: url('../fonts/davinci/davinci-webfont.eot');
+    src: url('../fonts/davinci/davinci-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/davinci/davinci-webfont.woff2') format('woff2'),
+        url('../fonts/davinci/davinci-webfont.woff') format('woff'),
+        url('../fonts/davinci/davinci-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Brody';
+    src: url('../fonts/brody/jabgndg5-webfont.eot');
+    src: url('../fonts/brody/jabgndg5-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/brody/jabgndg5-webfont.woff2') format('woff2'),
+        url('../fonts/brody/jabgndg5-webfont.woff') format('woff'),
+        url('../fonts/brody/jabgndg5-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

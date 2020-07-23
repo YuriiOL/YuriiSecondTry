@@ -61,14 +61,24 @@
     height: 40px;
     margin-left: 25px;
     margin-top: 26px;
-    background-color: rgb(124, 187, 30);
     color: white;
     border-radius: 20px;
-    outline: none !important;
+    outline: none;
     border: 1px;
     font-size: 19px;
     opacity: 0.6;
 }
+
+.sideButton {
+    background-color: rgb(124, 187, 30);
+}
+
+.sideButton:hover {
+    background-color: rgb(137, 228, 2);
+    box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.1), -10px -3px 10px rgba(0, 0, 0, 0.1);
+
+}
+
 
 #showPicture p {
     margin: 3px;
@@ -80,4 +90,20 @@
     margin-bottom: 130px !important;
     margin-top: 15px;
 
+}
+
+#chosenColor {
+    display: none;
+    float: right;
+    height: 15px;
+    width: 144px;
+    margin-right: 8px;
+}
+
+#chosenColor div {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    border-radius: 3px;
 }

@@ -14,7 +14,8 @@ import {
 } from './main.js'
 import {
     numbColor,
-    arrOfColors
+    arrOfColors,
+    moreThan3,
 } from './main4.js'
 
 export function showPicture() {
@@ -29,7 +30,7 @@ export function showBorder() {
 }
 
 export function textTwo() {
-    document.getElementById('sideText2').innerHTML = `Изображение: ${arrOfBorders[borderNumber].name}`
+    document.getElementById('sideText2').innerHTML = `Рама: ${arrOfBorders[borderNumber].name}`
 }
 export function showTextOnPicture() {
     document.getElementById('textOnPicture1').innerHTML = document.getElementById('inp1').value
@@ -44,9 +45,13 @@ export function chageFont() {
 }
 
 export function choseColor() {
-    document.querySelector('#chosenColor').style.display = "block";
-    let box = document.createElement('div');
-    box.style.backgroundColor = arrOfColors[numbColor].name;
-    document.querySelector('#chosenColor').appendChild(box);
+    if (moreThan3.length <= 8) {
+        document.querySelector('#chosenColor').style.display = "block";
+        let box = document.createElement('div');
+        box.style.backgroundColor = arrOfColors[numbColor].name;
+        document.querySelector('#chosenColor').appendChild(box);
+    } else {
+        return;
+    }
 
 }

@@ -1,7 +1,11 @@
 import {
     choseColor
 } from './sideBar.js'
+import {
+    moreThanTree
+} from './footer.js'
 export let numbColor = 0
+export let moreThan3 = []
 export let arrOfColors = [{
         name: 'blue'
     },
@@ -29,33 +33,49 @@ export let arrOfColors = [{
 ]
 document.querySelector('#color1').onclick = function () {
     numbColor = 0
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color2').onclick = function () {
     numbColor = 1
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color3').onclick = function () {
     numbColor = 2
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color4').onclick = function () {
     numbColor = 3
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color5').onclick = function () {
     numbColor = 4
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color6').onclick = function () {
     numbColor = 5
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color7').onclick = function () {
     numbColor = 6
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
 document.querySelector('#color8').onclick = function () {
     numbColor = 7
+    moreThan3.push(numbColor)
     choseColor()
+    moreThanTree()
 }
