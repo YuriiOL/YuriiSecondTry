@@ -3,6 +3,7 @@
     grid-template-columns: 650px 250px;
     grid-template-rows: 50px 400px 80px;
     font-family: Arial, Helvetica, sans-serif;
+    transition: opacity 750ms linear;
 }
 
 #header {
@@ -85,7 +86,6 @@
     color: rgb(117, 194, 1);
     font-size: 30px;
     font-weight: bold;
-
 }
 
 #grn {

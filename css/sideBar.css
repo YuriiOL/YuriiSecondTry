@@ -54,6 +54,7 @@
     margin-top: 30px;
     background-size: cover;
     position: absolute;
+
 }
 
 #sideButton {
@@ -71,12 +72,12 @@
 
 .sideButton {
     background-color: rgb(124, 187, 30);
+    transition: 300ms linear 300ms;
 }
 
 .sideButton:hover {
     background-color: rgb(137, 228, 2);
-    box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.1), -10px -3px 10px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 
