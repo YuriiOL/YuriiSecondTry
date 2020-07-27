@@ -17,16 +17,24 @@ import {
     arrOfColors,
     moreThan3,
 } from './main4.js'
+import {
+    arrColors
+} from './ajax.js'
+
+
 
 export function showPicture() {
-    document.getElementById('showPicture').style.backgroundImage = arrOfPicture[pickNumber].showImg
+    document.getElementById('showPicture').style.backgroundImage = arrOfPicture[pickNumber].showImg;
+
 }
 
 export function textOne() {
     document.getElementById('sideText1').innerHTML = `Изображение: ${arrOfPicture[pickNumber].name}`
+
 }
 export function showBorder() {
     document.getElementById('showBorder').style.backgroundImage = arrOfBorders[borderNumber].showImg
+
 }
 
 export function textTwo() {
@@ -50,8 +58,8 @@ export function choseColor() {
         let box = document.createElement('div');
         box.style.backgroundColor = arrOfColors[numbColor].name;
         document.querySelector('#chosenColor').appendChild(box);
+        arrColors.push(arrOfColors[numbColor].name)
     } else {
         return;
     }
-
 }

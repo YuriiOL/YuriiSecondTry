@@ -4,7 +4,7 @@ import {
 
 import {
     showPicture,
-    textOne
+    textOne,
 } from './sideBar.js'
 
 export let pickNumber = 0;

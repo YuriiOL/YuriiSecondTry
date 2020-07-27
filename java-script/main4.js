@@ -1,5 +1,5 @@
 import {
-    choseColor
+    choseColor,
 } from './sideBar.js'
 import {
     moreThanTree
@@ -35,13 +35,6 @@ let chosenColor = document.getElementsByClassName('color');
 
 for (let i = 0; i < chosenColor.length; i++) {
     chosenColor[i].onclick = function () {
-        let element = chosenColor[0];
-        while (element) {
-            if (element.tagName === "IMG") {
-                element.classList.remove("chosenColor")
-            }
-            element = element.nextSibling;
-        }
         numbColor = i
         moreThan3.push(numbColor)
         choseColor()

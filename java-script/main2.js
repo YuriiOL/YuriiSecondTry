@@ -1,6 +1,6 @@
 import {
     showBorder,
-    textTwo
+    textTwo,
 } from './sideBar.js'
 import {
     sayBorder

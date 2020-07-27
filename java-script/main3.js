@@ -1,6 +1,6 @@
 import {
     showTextOnPicture,
-    chageFont
+    chageFont,
 } from './sideBar.js'
 export let fontNumber = 0
 export const fonts = [{

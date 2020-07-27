@@ -35,9 +35,9 @@
 }
 
 .ListOfImg img {
-    width: 175px;
+    width: 173px;
     height: 203px;
-    border: 1px solid gainsboro;
+    border: 2px solid gainsboro;
     margin: 3px;
     margin-top: 0px;
     border-radius: 10px
@@ -49,36 +49,6 @@
 }
 
 
-.listOfBorders {
-    width: 560px;
-    height: 280px;
-    margin-top: 10px;
-    margin-left: 37px;
-    overflow-y: scroll;
-}
-
-.listOfBorders::-webkit-scrollbar {
-    display: none;
-}
-
-.listOfBorders {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.listOfBorders img {
-    width: 175px;
-    height: 203px;
-    border: 1px solid gainsboro;
-    margin: 3px;
-    margin-top: 0px;
-    border-radius: 10px
-}
-
-.listOfBorders img:hover {
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
 .chosenPicture {
     border: 2px solid rgb(117, 194, 1) !important;

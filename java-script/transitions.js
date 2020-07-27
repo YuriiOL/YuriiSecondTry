@@ -1,6 +1,9 @@
 import {
     anime
 } from './animation.js'
+import {
+    buy
+} from './ajax.js'
 let next = 0;
 
 function goNext() {
@@ -46,16 +49,17 @@ function goNext() {
             document.querySelector('#button3').style.color = 'gray'
             document.querySelector('#button4').style.color = 'black'
         }
+        if (next == 4) {
+            buy()
+            setTimeout(() => {
+                alert('Ваша покупка оформлена'), 750
+            })
+        }
     }, 750)
 }
 
 document.getElementById('sideButton').onclick = function addNext() {
-    if (next == 3) {
-        next = 0
-    } else {
-        next++;
-    }
-    console.log(next)
+    next++;
     anime();
     goNext();
 
