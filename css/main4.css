@@ -42,3 +42,7 @@
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.chosenColor {
+    border: 2px solid rgb(117, 194, 1) !important;
+}

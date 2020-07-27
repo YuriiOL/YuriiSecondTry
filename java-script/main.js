@@ -65,80 +65,21 @@ export let arrOfPicture = [{
     }
 
 ];
+let chosenPicture = document.getElementsByClassName('picture');
 
-document.getElementById('pictureOne').onclick = function chosen1() {
-    pickNumber = 0;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureTwo').onclick = function chosen2() {
-    pickNumber = 1;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureThree').onclick = function chosen3() {
-    pickNumber = 2;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureFour').onclick = function chosen4() {
-    pickNumber = 3;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureFive').onclick = function chosen5() {
-    pickNumber = 4;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureSix').onclick = function chosen6() {
-    pickNumber = 5;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureSeven').onclick = function chosen7() {
-    pickNumber = 6;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureEight').onclick = function chosen8() {
-    pickNumber = 7;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureNine').onclick = function chosen9() {
-    pickNumber = 8;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureTen').onclick = function chosen10() {
-    pickNumber = 9;
-    sayPrice();
-    showPicture();
-    textOne();
-}
-
-document.getElementById('pictureEleven').onclick = function chosen11() {
-    pickNumber = 10;
-    sayPrice();
-    showPicture();
-    textOne();
+for (let i = 0; i < chosenPicture.length; i++) {
+    chosenPicture[i].onclick = function () {
+        let element = chosenPicture[0];
+        while (element) {
+            if (element.tagName === "IMG") {
+                element.classList.remove("chosenPicture")
+            }
+            element = element.nextSibling;
+        }
+        pickNumber = i;
+        sayPrice();
+        showPicture();
+        textOne();
+        this.classList.add('chosenPicture');
+    }
 }

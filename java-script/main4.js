@@ -31,51 +31,21 @@ export let arrOfColors = [{
         name: 'rgb(255, 145, 0)'
     },
 ]
-document.querySelector('#color1').onclick = function () {
-    numbColor = 0
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color2').onclick = function () {
-    numbColor = 1
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color3').onclick = function () {
-    numbColor = 2
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color4').onclick = function () {
-    numbColor = 3
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color5').onclick = function () {
-    numbColor = 4
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color6').onclick = function () {
-    numbColor = 5
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color7').onclick = function () {
-    numbColor = 6
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
-}
-document.querySelector('#color8').onclick = function () {
-    numbColor = 7
-    moreThan3.push(numbColor)
-    choseColor()
-    moreThanTree()
+let chosenColor = document.getElementsByClassName('color');
+
+for (let i = 0; i < chosenColor.length; i++) {
+    chosenColor[i].onclick = function () {
+        let element = chosenColor[0];
+        while (element) {
+            if (element.tagName === "IMG") {
+                element.classList.remove("chosenColor")
+            }
+            element = element.nextSibling;
+        }
+        numbColor = i
+        moreThan3.push(numbColor)
+        choseColor()
+        moreThanTree()
+        this.classList.add('chosenColor');
+    }
 }

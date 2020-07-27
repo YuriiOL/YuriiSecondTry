@@ -52,3 +52,8 @@ input {
     margin-left: 34px;
     opacity: 0.8;
 }
+
+.chosenFont {
+    background-color: rgb(125, 189, 31) !important;
+    color: white !important;
+}
