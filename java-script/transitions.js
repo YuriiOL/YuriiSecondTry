@@ -2,7 +2,10 @@ import {
     anime
 } from './animation.js'
 import {
-    buy
+    buy,
+    sendRequest,
+    requestURL,
+    buyProduct
 } from './ajax.js'
 let next = 0;
 
@@ -51,6 +54,11 @@ function goNext() {
         }
         if (next == 4) {
             buy()
+            sendRequest("POST", requestURL, buyProduct).then(function (data) {
+                console.log(data)
+            }).catch(function (err) {
+                console.log(err)
+            })
             setTimeout(() => {
                 alert('Ваша покупка оформлена'), 750
             })
