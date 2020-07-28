@@ -1,5 +1,7 @@
 Hello
 
+Video: https://www.youtube.com/watch?v=ZWY3rB1EFxY
+
 How to use?
 1. On first step you decide what picture you want to buy(at the bottom you can see the price).
 When you selected a picture, press the green button "Дале".
