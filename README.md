@@ -8,7 +8,7 @@ When you selected a border, press the green button "Дале".
 3. On third step you decide what text you want in your picture.
 When you are ready, press the green button "Дале".
 4. Step 4 you decide what color of fingerprints you want (if you chose more than 3 colors price add 30, and more than 6 colors price add 30 again).
-When you selected a colors, press the green button "В корзину".
+When you selected a colors, press the green button "В корзину". 
 5.After step 4, you will receive a notification that your order has been placed.
 In console you can see your choice.
 
